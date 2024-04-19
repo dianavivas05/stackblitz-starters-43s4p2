@@ -91,6 +91,11 @@ a p:hover{
   height: 100vh;
   background: radial-gradient(#fff, #ffd6d6);
 }
+
+.pla{
+  height: 100%;
+}
+
 .header row {
   margin-top: 70px;
 }
@@ -256,6 +261,14 @@ ul a{
 
 .wa img{
   width: 180px;
+}
+
+/* Registro*/
+.rom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*media query para  el menu*/
