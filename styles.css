@@ -271,6 +271,38 @@ ul a{
   align-items: center;
 }
 
+.testP{
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.testP h2{
+  font-size: 2rem;
+}
+
+.testP h3{
+  color: #555;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.testP ul{
+  padding-inline-start: 1rem;
+  list-style-type: disc;
+}
+
+.testP h4{
+  margin-block: 2rem 1rem;
+}
+
+.testP p{
+  margin-bottom: 0.8rem;
+}
+
+.testP p:last-child{
+  margin-bottom: 4rem;
+}
 /*media query para  el menu*/
 @media only screen and (max-width: 800px) {
   nav ul {
