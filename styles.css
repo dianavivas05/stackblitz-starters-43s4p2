@@ -41,6 +41,26 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.cate {
+  justify-content: center;
+  gap: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.image-hover-effect{
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.image-hover-effect:hover{
+  transform: scale(1.05); /* Escala la imagen un poco */
+  filter: brightness(1.1); /* Aumenta el brillo de la imagen */
+}
+
+a p:hover{
+  color: #777777;
+}
 .col-2 {
   flex-basis: 50%;
   min-width: 300px;
@@ -122,8 +142,8 @@ p {
 }
 
 h4 {
-  color: rgb(65, 64, 64);
-  font-weight: normal;
+  color:#555;
+  font-weight: 600;
   font-size: 1.2rem;
 }
 .col-4 p {
@@ -169,13 +189,15 @@ h1 {
 
 /*footer*/
 .footer {
+  position: relative;
   background: #000;
   color: #8a8a8a;
   font-size: 14px;
   padding: 60px 0 20px;
 }
 .footer p {
-  color: #8a8a8a;
+  color:#b5b5b5;
+  font-size: 1rem;
 }
 .footer h3 {
   color: #fff;
@@ -196,15 +218,20 @@ h1 {
 }
 .footer-col-2 img {
   width: 180px;
-  margin-bottom: 20px;
 }
 .footer-col-3,
 .footer-col-4 {
-  flex-basis: 12%;
+  flex-basis: 23%;
   text-align: center;
 }
-.ul {
+.footer-col-4 img{
+  width: 16px;
+}
+ul {
   list-style-type: none;
+}
+ul a{
+  color:#8a8a8a;
 }
 .app-logo {
   margin-top: 20px;
@@ -226,6 +253,11 @@ h1 {
   margin-left: 20px;
   display: none;
 }
+
+.wa img{
+  width: 180px;
+}
+
 /*media query para  el menu*/
 @media only screen and (max-width: 800px) {
   nav ul {
