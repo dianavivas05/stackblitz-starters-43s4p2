@@ -5,26 +5,32 @@
 }
 
 .navbar {
-  display: flex; /*La propiedad de display flex, ayuda a colocar las cajas como si fueran celdas de tablas, con un comportamiento predecible y adaptable. */
+  display: flex;
+  /*La propiedad de display flex, ayuda a colocar las cajas como si fueran celdas de tablas, con un comportamiento predecible y adaptable. */
   align-items: center;
   padding: 20px;
 }
+
 nav {
   flex: 1;
   text-align: right;
 }
+
 nav ul {
   display: inline-block;
   list-style-type: none;
 }
+
 nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
+
 a {
   text-decoration: none;
   color: #555;
 }
+
 p {
   color: #555;
 }
@@ -35,12 +41,14 @@ p {
   padding-left: 25px;
   padding-right: 25px;
 }
+
 .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .cate {
   justify-content: center;
   gap: 3rem;
@@ -49,31 +57,37 @@ p {
   font-weight: 500;
 }
 
-.image-hover-effect{
+.image-hover-effect {
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.image-hover-effect:hover{
-  transform: scale(1.05); /* Escala la imagen un poco */
-  filter: brightness(1.1); /* Aumenta el brillo de la imagen */
+.image-hover-effect:hover {
+  transform: scale(1.05);
+  /* Escala la imagen un poco */
+  filter: brightness(1.1);
+  /* Aumenta el brillo de la imagen */
 }
 
-a p:hover{
+a p:hover {
   color: #777777;
 }
+
 .col-2 {
   flex-basis: 50%;
   min-width: 300px;
 }
+
 .col-2 img {
   max-width: 100%;
   padding: 50px 0;
 }
+
 .col-2 h1 {
   font-size: 50px;
   line-height: 60px;
   margin: 25px 0;
 }
+
 .btn {
   display: inline-block;
   background: #ff523b;
@@ -83,6 +97,7 @@ a p:hover{
   border-radius: 30px;
   transition: background-color 0.5s;
 }
+
 .btn :hover {
   background-color: #563434;
 }
@@ -92,7 +107,7 @@ a p:hover{
   background: radial-gradient(#fff, #ffd6d6);
 }
 
-.pla{
+.pla {
   height: 100%;
 }
 
@@ -103,20 +118,24 @@ a p:hover{
 .categories {
   margin: 70px 0;
 }
+
 .col-3 {
   flex-basis: 30%;
   min-width: 250px;
   margin-bottom: 30px;
 }
+
 .col-3 img {
   width: 100%;
 }
+
 .small-container {
   max-width: 1080px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
 }
+
 .col-4 {
   flex-basis: 25%;
   padding: 10px;
@@ -124,9 +143,11 @@ a p:hover{
   margin-bottom: 50px;
   transition: transform 0.5s;
 }
+
 .col-4 img {
   width: 100%;
 }
+
 .title {
   text-align: center;
   margin: 5rem auto 3rem;
@@ -134,6 +155,7 @@ a p:hover{
   line-height: 60px;
   color: #555;
 }
+
 .title::after {
   content: '';
   background: #ff523b;
@@ -147,19 +169,23 @@ a p:hover{
 }
 
 h4 {
-  color:#555;
+  color: #555;
   font-weight: 600;
   font-size: 1.2rem;
 }
+
 .col-4 p {
   font-size: 1rem;
 }
+
 .col-4 .price {
   color: #ff523b;
 }
+
 .col-4:hover {
   transform: translateY(-5px);
 }
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -200,13 +226,16 @@ h1 {
   font-size: 14px;
   padding: 60px 0 20px;
 }
+
 .footer p {
-  color:#b5b5b5;
+  color: #b5b5b5;
   font-size: 1rem;
 }
+
 .footer h3 {
   color: #fff;
 }
+
 .footer-col-1,
 .footer-col-2,
 .footer-col-3,
@@ -214,52 +243,64 @@ h1 {
   min-width: 250px;
   margin-bottom: 20px;
 }
+
 .footer-col-1 {
   flex-basis: 30%;
 }
+
 .footer-col-2 {
   flex: 1;
   text-align: center;
 }
+
 .footer-col-2 img {
   width: 180px;
 }
+
 .footer-col-3,
 .footer-col-4 {
   flex-basis: 23%;
   text-align: center;
 }
-.footer-col-4 img{
+
+.footer-col-4 img {
   width: 16px;
 }
+
 ul {
   list-style-type: none;
 }
-ul a{
-  color:#8a8a8a;
+
+ul a {
+  color: #8a8a8a;
 }
+
 .app-logo {
   margin-top: 20px;
 }
+
 .app-logo img {
   width: 140px;
 }
+
 .footer hr {
   border: none;
   background: #b5b5b5;
   height: 1px;
   margin: 20px 0;
 }
+
 .copyright {
   text-align: center;
 }
+
 .menu-icon {
   width: 28px;
   margin-left: 20px;
   display: none;
 }
 
-.wa img{
+.wa img {
   width: 180px;
 }
 
@@ -271,36 +312,36 @@ ul a{
   align-items: center;
 }
 
-.testP{
+.testP {
   color: #555;
   font-size: 0.9rem;
 }
 
-.testP h2{
+.testP h2 {
   font-size: 2rem;
 }
 
-.testP h3{
+.testP h3 {
   color: #555;
   text-align: center;
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
 
-.testP ul{
+.testP ul {
   padding-inline-start: 1rem;
   list-style-type: disc;
 }
 
-.testP h4{
+.testP h4 {
   margin-block: 2rem 1rem;
 }
 
-.testP p{
+.testP p {
   margin-bottom: 0.8rem;
 }
 
-.testP p:last-child{
+.testP p:last-child {
   margin-bottom: 4rem;
 }
 
@@ -316,18 +357,82 @@ ul a{
   flex: 1;
 }
 
-.product div{
+.product div {
   flex: 1;
 }
 
-.product div .price{
-  color:#ff523b;
+.product div .price {
+  color: #ff523b;
   font-weight: 600;
 }
 
-.product h3{
+.product h3 {
   color: #333;
 }
+
+.slide img{
+  width: 100%;
+}
+
+/* Estilos para el contenedor del slider */
+.slider-container {
+  position: relative;
+  width: 100%;
+  /* Ajusta según el tamaño deseado */
+  height: 300px;
+  /* Ajusta según el tamaño deseado */
+  overflow: hidden;
+}
+
+/* Estilos para cada slide */
+.slide {
+  display: flex;
+  justify-content: center; /* Centra la imagen horizontalmente */
+  align-items: center; /* Centra la imagen verticalmente */
+  width: 100%; /* Ajusta al tamaño deseado */
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+  /* Oculto inicialmente */
+  transition: opacity 0.5s ease-in-out;
+  /* Transición de opacidad */
+}
+
+/* Estilo para el slide activo */
+.slide.active {
+  opacity: 1;
+  /* El slide activo es visible */
+}
+
+/* Estilos para los botones de navegación */
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  /* Centra los botones verticalmente */
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 6px;
+  font-size: 2.5rem;
+  border: none;
+  padding: 0px 6px 3px 6px;
+  cursor: pointer;
+  z-index: 1;
+  /* Asegura que los botones estén por encima de las imágenes */
+}
+
+/* Posicionamiento de los botones */
+.prev-button {
+  left: 10px;
+  /* Botón izquierdo */
+}
+
+.next-button {
+  right: 10px;
+  /* Botón derecho */
+}
+
 
 /*media query para  el menu*/
 @media only screen and (max-width: 800px) {
@@ -340,30 +445,36 @@ ul a{
     overflow: hidden;
     transition: max-height 0.5s;
   }
+
   nav ul li {
     display: block;
     margin-right: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   nav ul li a {
     color: #fff;
   }
+
   .menu-icon {
     display: block;
     cursor: pointer;
   }
 }
+
 /* media query con menos de  600pc*/
 @media only screen and (max-width: 600px) {
   .row {
     text-align: center;
   }
+
   .col-2,
   .col-3,
   .col-4 {
     flex-basis: 100%;
   }
+
   .header {
     height: 100%;
     background: radial-gradient(#fff, #ffd6d6);
