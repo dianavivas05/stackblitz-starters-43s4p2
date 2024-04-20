@@ -303,6 +303,32 @@ ul a{
 .testP p:last-child{
   margin-bottom: 4rem;
 }
+
+/* Producto */
+.product {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.slice {
+  flex: 1;
+}
+
+.product div{
+  flex: 1;
+}
+
+.product div .price{
+  color:#ff523b;
+  font-weight: 600;
+}
+
+.product h3{
+  color: #333;
+}
+
 /*media query para  el menu*/
 @media only screen and (max-width: 800px) {
   nav ul {
