@@ -370,7 +370,7 @@ ul a {
   color: #333;
 }
 
-.slide img{
+.slide img {
   height: 100%;
 }
 
@@ -385,9 +385,12 @@ ul a {
 /* Estilos para cada slide */
 .slide {
   display: flex;
-  justify-content: center; /* Centra la imagen horizontalmente */
-  align-items: center; /* Centra la imagen verticalmente */
-  width: 100%; /* Ajusta al tamaño deseado */
+  justify-content: center;
+  /* Centra la imagen horizontalmente */
+  align-items: center;
+  /* Centra la imagen verticalmente */
+  width: 100%;
+  /* Ajusta al tamaño deseado */
   position: absolute;
   height: 100%;
   opacity: 0;
@@ -431,6 +434,31 @@ ul a {
   /* Botón derecho */
 }
 
+.cateperros {
+  flex-basis: 1%;
+  min-width: 150px;
+}
+
+.cateperros img {
+  width: 150px;
+}
+
+.cateperros p{
+  font-size: 1.7rem;
+}
+
+.banner {
+  background-color: #004aad;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+.banner img{
+  width: 30%;
+  height: auto;
+}
 
 /*media query para  el menu*/
 @media only screen and (max-width: 800px) {
@@ -442,6 +470,7 @@ ul a {
     width: 100%;
     overflow: hidden;
     transition: max-height 0.5s;
+    z-index: 1;
   }
 
   nav ul li {
@@ -476,5 +505,9 @@ ul a {
   .header {
     height: 100%;
     background: radial-gradient(#fff, #ffd6d6);
+  }
+
+  .product{
+    display: block;
   }
 }
