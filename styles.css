@@ -371,16 +371,14 @@ ul a {
 }
 
 .slide img{
-  width: 100%;
+  height: 100%;
 }
 
 /* Estilos para el contenedor del slider */
 .slider-container {
   position: relative;
   width: 100%;
-  /* Ajusta según el tamaño deseado */
-  height: 300px;
-  /* Ajusta según el tamaño deseado */
+  height: 414px;
   overflow: hidden;
 }
 
